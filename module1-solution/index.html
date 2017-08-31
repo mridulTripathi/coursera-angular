@@ -22,6 +22,9 @@
       <input id="lunch-menu" type="text" 
              placeholder="List comma separated dishes you usually have for lunch" 
              class="form-control" ng-model="values">
+             <!-- The Empty items are NOT considered -->
+             <br>
+             <p>*The Empty items are NOT considered</p>
     </div>
     <div class="form-group">
       <button ng-click='checkLunch()' class="btn btn-default">Check If Too Much</button>
